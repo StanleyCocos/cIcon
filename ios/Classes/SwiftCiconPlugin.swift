@@ -6,6 +6,7 @@ public class SwiftCiconPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "cicon", binaryMessenger: registrar.messenger())
     let instance = SwiftCiconPlugin()
+    UIViewController.initializeMethod()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
@@ -21,7 +22,7 @@ public class SwiftCiconPlugin: NSObject, FlutterPlugin {
       
   }
     
-    
+
     public func setIcon(name: String?, result: @escaping FlutterResult){
         guard #available(iOS 10.3, *) else {
             result(false)
