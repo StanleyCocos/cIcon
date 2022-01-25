@@ -1,15 +1,11 @@
-# cicon
+## 移动修改应用图标
 
-A new Flutter project.
+#### 简介
+flutter 修改应用图片(目前只支持iOS)
 
-## Getting Started
+#### 环境依赖
+#available(iOS 10.3, *)
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+#### 依赖
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
