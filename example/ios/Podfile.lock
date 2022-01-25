@@ -1,0 +1,22 @@
+PODS:
+  - cicon (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - cicon (from `.symlinks/plugins/cicon/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  cicon:
+    :path: ".symlinks/plugins/cicon/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  cicon: 9341039e9470fd87143bc239df8f792574256248
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: 27cfe88870414057439d1df94d0712f4e0c00dfa
+
+COCOAPODS: 1.11.2
