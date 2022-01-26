@@ -7,9 +7,10 @@ flutter 修改应用图片(目前只支持iOS)
 #available(iOS 10.3, *)
 
 #### 依赖
+```
 cicon: 
     git: https://github.com/StanleyCocos/cIcon.git
-    
+```
 
 #### 使用
 1. 修改图标
