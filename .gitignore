@@ -344,6 +344,7 @@ playground.xcworkspace
 /*.gcno
 
 # Build files
-build/
 
 # End of https://www.gitignore.io/api/dart,swift,xcode,android,intellij,cocoapods,objective-c,androidstudio
+*.lock
+/.packages
