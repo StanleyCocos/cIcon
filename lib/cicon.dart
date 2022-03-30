@@ -12,7 +12,7 @@ class Cicon {
   /// @return Future
   /// @updateTime 2022/1/25 10:00 上午
   /// @author 10456
-  static Future setIcon({required String name}) async {
+  static Future<bool> setIcon({required String name}) async {
     return await _channel.invokeMethod("setIcons", name);
   }
 
@@ -21,7 +21,7 @@ class Cicon {
   /// @return Future
   /// @updateTime 2022/1/25 10:00 上午
   /// @author 10456
-  static Future restoreIcon() async {
+  static Future<bool> restoreIcon() async {
     return await _channel.invokeMethod("restoreIcon");
   }
 

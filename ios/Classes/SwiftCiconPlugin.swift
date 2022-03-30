@@ -28,6 +28,12 @@ public class SwiftCiconPlugin: NSObject, FlutterPlugin {
             result(false)
             return
         }
+        
+        if !UIApplication.shared.supportsAlternateIcons {
+            result(false)
+            return
+        }
+        
         UIApplication.shared.setAlternateIconName(name){ error in
             print(error)
             result(error == nil)
